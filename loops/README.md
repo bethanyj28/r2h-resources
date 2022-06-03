@@ -33,6 +33,7 @@
     } while (time < 11)
     ```
 3. You are given the following code. Write the function `printIt` which will print every number in the matrix (2D array).
+   
    _Warning: this is a tricky one!_
    ```javascript
     let matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
