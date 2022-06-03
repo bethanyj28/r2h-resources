@@ -2,6 +2,7 @@
 
 ## Resources
 [Codecademy](https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-functions)
+
 [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
 ## Practice problems
