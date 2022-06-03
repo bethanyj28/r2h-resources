@@ -16,8 +16,12 @@
    ```
    Example input: 2, 3
    Example output: 6
-3. Write a function that takes in the length of the side of a square and finds the area of a square. Bonus: Try to use the previous function you wrote in this new function.
+3. Write a function that takes in the length of the side of a square and finds the area of a square. 
+
+   _Bonus: Try to use the previous function you wrote in this new function._
    ```
    Example input: 4
    Example output: 16
    ```
+   
+Find answers [here](https://github.com/bethanyj28/r2h-resources/blob/main/functions/answers.md). But give it a good try first!
