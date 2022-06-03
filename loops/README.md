@@ -10,7 +10,7 @@
 
 1. Write out everything the following loop will print. Bonus: what will it print if we change `break` to be `continue`?
    ```javascript
-    for(let i = 5; i >= 0; i--) {
+    for(let i = 5; i > 0; i--) {
       if (i % 3 == 0) {
         console.log("Red light")
         break
