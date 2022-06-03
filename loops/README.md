@@ -39,3 +39,5 @@
     let matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
     printIt(matrix)
    ```
+
+Answers are [here](https://github.com/bethanyj28/r2h-resources/blob/main/loops/answers.md)!
