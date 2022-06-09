@@ -43,14 +43,17 @@
 </details>
 
 <details>
-  <summary>Is this valid code? Why or why not? What will the `console.log()`s print?</summary>
+  <summary>Is this valid code? Why or why not? What will the console.log()s print?</summary>
   
   This is valid code! Because objects in javascript are _mutable_, we can change and delete properties. The first `console.log()` would print:
-  ```json
+  
+  ```
   { type: 'succulent', needsWater: true, needsSunlight: false }
   ```
+  
   and the second:
-    ```json
+  
+  ```
   { type: 'pothos', needsWater: true }
   ```
   
@@ -58,15 +61,15 @@
 
 <details>
   <summary>How are methods different from functions? How are they similar?</summary>
-  
+  <br></br>
   It is kind of like how all squares are rectangles but not all rectangles are squares. A _method_ is a function! However, it is a function that must be called off of an object. When you use the `this` keyword in a method, it will refer to the object that it is a part of.
   
 </details>
 
 <details>
-  <summary>What will the following `console.log()`s print?</summary>
+  <summary>What will the following console.log()s print?</summary>
   
-  ```json
+  ```
   {
     songList: [
       'Bohemian Rhapsody',
@@ -79,7 +82,7 @@
   }
   ```
   
-  ```json
+  ```
   {
     songList: [
       'Bohemian Rhapsody',
