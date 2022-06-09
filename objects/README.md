@@ -24,7 +24,7 @@
 3. Is this valid code? Why or why not? What will the `console.log()`s print?
    ```javascript
    const plant = {
-    type: succulent,
+    type: "succulent",
     needsWater: true,
     needsSunlight: false,
    }
