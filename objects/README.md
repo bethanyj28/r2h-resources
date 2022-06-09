@@ -53,3 +53,5 @@
    playlist.nextSong()
    console.log(playlist)
    ```
+
+Find answers [here](https://github.com/bethanyj28/r2h-resources/blob/main/objects/answers.md)!
