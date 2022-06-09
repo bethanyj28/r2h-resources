@@ -3,7 +3,9 @@
 ## Resources
 
 [Codecademy - Key Concepts](https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-objects)
+
 [Codecademy - Cheat Sheet](https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-objects/cheatsheet)
+
 [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 
 ## Practice problems
