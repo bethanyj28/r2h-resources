@@ -40,10 +40,11 @@
 5. What will the following `console.log()`s print?
    ```javascript
    const playlist = {
-    songList = ["Bohemian Rhapsody", "Despacito", "Never Gonna Give You Up", "Friday"],
-    currentSong = "Despacito",
+    songList: ["Bohemian Rhapsody", "Despacito", "Never Gonna Give You Up", "Friday"],
+    currentSong: "Despacito",
     nextSong() {
-      const index = this.songList.indexOf(this.currentSong)
+      let index = this.songList.indexOf(this.currentSong)
+      index++
       this.currentSong = this.songList[index % this.songList.length]
     }
    }
