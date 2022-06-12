@@ -108,4 +108,4 @@ Example input: 150, 500
 Example output: 3 dollars, 2 quarters
 ```
 
-Answers [here](https://github.com/bethanyj28/r2h-resources/blob/main/problem_solving/answers.md)! (__Warning__: The answers are not hidden under toggles due to some rendering issues - proceed with caution!
+Answers [here](https://github.com/bethanyj28/r2h-resources/blob/main/problem_solving/answers.md)! (__Warning__: The answers are not hidden under toggles due to some rendering issues - proceed with caution!)
