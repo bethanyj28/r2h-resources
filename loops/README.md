@@ -39,5 +39,17 @@
     let matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
     printIt(matrix)
    ```
+4. Given an array of numbers and a target number, write a function that will return the two numbers that add up to the target number. You can assume that one and only one pair will add up to to the number.
+   
+   _Warning: this is another tricky one!_
+   ```
+   Example input: [2, 15, 4, 22], 6
+   Example output: [2, 4]
+   ```
+   ```javascript
+   function twoSum(arr, target) {
+      // fill in the code here!
+   }
+   ```
 
 Answers are [here](https://github.com/bethanyj28/r2h-resources/blob/main/loops/answers.md)!

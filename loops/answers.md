@@ -42,3 +42,20 @@
   ```
 
 </details>
+
+<details>
+  <summary> Given an array of numbers and a target number, write a function that will return the two numbers that add up to the target number. You can assume that one and only one pair will add up to to the number.</summary>
+  
+  ```javascript
+  function twoSum(arr, target) {
+    for (let i = 0; i < arr.length; i++) {
+      for (let j = i+1; j < arr.length; j++) {
+        if (arr[i] + arr[j] == target) {
+          return [arr[i], arr[j]]
+        }
+      }                                
+    }
+  }
+  ```
+
+</details>
