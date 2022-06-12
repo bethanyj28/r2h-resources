@@ -107,3 +107,5 @@ Example output (printed): 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, 12, 1
 Example input: 150, 500
 Example output: 3 dollars, 2 quarters
 ```
+
+Answers [here](https://github.com/bethanyj28/r2h-resources/blob/main/problem_solving/answers.md)! (__Warning__: The answers are not hidden under toggles due to some rendering issues - proceed with caution!
