@@ -77,3 +77,90 @@ function fizzbuzz(number) {
   }
 }
 ```
+
+## Change calculator
+
+### Understand the problem
+
+We have two numbers we need to leverage - theres the cost of a product and the amount of money that was given. Using these numbers we need to calculate the change that should be given. But we need to return these results in numbers of dollars/coins.
+
+### Break down the problem into steps
+
+Here are the subproblems we can see in this problem:
+
+- Find the amount of change to be given
+- Break down the change into coin values
+
+Let's write some pseudocode:
+
+**Note**: "division" will mean [integer division](https://mathworld.wolfram.com/IntegerDivision.html), which leads us to use `Math.floor` to accomplish
+
+```javascript
+function calculateChange(cost, given) {
+    // subtract cost from given to determine change
+    // divide change by 100 to find number of dollars
+    // take modulus of change and 100 to find remaining change
+    // divide change by 25 to find number of quarters
+    // take modulus of change and 25 to find remaining change
+    // divide change by 10 to find number of dimes
+    // take modulus of change and 10 to find remaining change
+    // divide change by 5 to find number of nickels
+    // take modulus of change and 5 to find remaining change
+    // pennies will be the remaining change
+}
+```
+
+If I were to optimize, I would note that there's a lot of repitition and we can move some logic to another function.
+
+### Write out the code
+__Without optimization:__
+```javascript
+function calculateChange(cost, given) {
+    // subtract cost from given to determine change
+    let change = given - cost
+    
+    // divide change by 100 to find number of dollars
+    const dollars = Math.floor(change / 100)
+    // take modulus of change and 100 to find remaining change
+    change = change % 100
+    
+    // divide change by 25 to find number of quarters
+    const quarters = Math.floor(change / 25)
+    // take modulus of change and 25 to find remaining change
+    change = change % 25
+    
+    // divide change by 10 to find number of dimes
+    const dimes = Math.floor(change / 10)
+    // take modulus of change and 10 to find remaining change
+    change = change % 10
+    
+    // divide change by 5 to find number of nickels
+    const nickels = Math.floor(change / 5)
+    // take modulus of change and 5 to find remaining change
+    change = change % 5
+    
+    pennies = change
+    
+    console.log(`Dollars: ${dollars}\nQuarters: ${quarters}\nDimes: ${dimes}\nNickels: ${nickels}\nPennies: ${pennies}`)
+}
+```
+
+__With optimization:__
+```javascript
+function findDenomination(denominationName, denomination, change) {
+    const num = Math.floor(change / denomination)
+    const remainingChange = change % denomination
+    console.log(`${denominationName}: ${num}`)
+    return remainingChange
+}
+
+function calculateChange(cost, given) {
+    let change = given - cost
+    
+    const demoninationsMap = {"Dollars": 100, "Quarters": 25, "Dimes": 10, "Nickels": 5, "Pennies": 1}
+     
+    for (const denomination in denominationsMap) {
+        change = findDenomination(denomination, denominationsMap[denomination], change)
+    }
+}
+```
