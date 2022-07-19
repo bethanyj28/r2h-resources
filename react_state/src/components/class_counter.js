@@ -12,8 +12,8 @@ class ClassCounter extends React.Component {
         <h1>I'm a class component</h1>
         <h1>{number}</h1>
         <div className="buttonContainer">
-          <button>+</button>
           <button>-</button>
+          <button>+</button>
         </div>
       </div>
     )
