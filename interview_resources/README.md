@@ -71,7 +71,7 @@ One final tip I have is to come prepared with lots of questions for your intervi
 3. Asking questions is a great way to leave a good, lasting impression on your interviewers. When I used to lead interviews, the most memorable were the ones where the interviewees had interesting questions.
 
 Here are some tips for questions:
-1. Think of your dream job, your dream company, where you want to be in 5 years, etc. Using these, ask questions to learn about whether this is a good company.
+1. Think of your dream job, your dream company, where you want to be in 5 years, etc. Using these, come up with questions that will help you learn about whether this is somewhere you could be happy and grow.
 2. Write all these questions down somewhere you can access quickly during the interview. No one should fault you for having notes on these questions (if anything, they might admire you being prepared) and you should save your brain space by not trying to memorize these questions.
 3. Try to tailor these questions to the interviewer. For example, you might be interviewed by someone who does not code. In those cases, it might not be the best to ask them about the tech stack you'd be working on.
 4. Try to avoid asking the same questions to every interviewer. It's not necessarily a bad thing if you want different perspectives, but it might come across as you not putting effort into the questions if they bring it up when making a decision.
