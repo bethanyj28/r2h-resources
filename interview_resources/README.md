@@ -6,7 +6,7 @@
 
 Be sure to have a good grasp of the fundamentals that you have covered so far. These include HTML, CSS, JavaScript, SQL, APIs, React, etc. It's easy to try to memorize everything, and if that's what works for you go for it! I recommend, however, trying to focus on the why behind various things. **Why** are these technologies a thing? **What** problem are they solving? **How** can you leverage them?
 
-Going deeper, a helpful technique for learning about topics that might seem daunting is the [Feynman Technique](https://fs.blog/feynman-technique/). The goal of this technique is to attempt to teach a concept to someone else (real or imaginary). If you can teach someone, then you probably understand the topic! If you can't, then it helps you find the gaps in your knowledge so you can fill them in. The overarching process for the Feynman Technique is:
+While going deeper on a topic, a helpful technique for learning about things that might seem daunting is the [Feynman Technique](https://fs.blog/feynman-technique/). The goal of this technique is to attempt to teach a concept to someone else (real or imaginary). If you can teach someone, then you probably understand the topic! If you can't, then it helps you find the gaps in your knowledge so you can fill them in. The overarching process for the Feynman Technique is:
 
 1. On a blank sheet of paper, write everything you know on a topic. You can do research on the topic at this point and add it to the sheet.
 2. Attempt to teach the topic to someone. Suggestions include your siblings, your parents, your peers, your mentors, your pets, your Uber driver, etc. It can be helpful if whoever you are teaching isn't familiar with the topic (though not a requirement!).
